@@ -1,8 +1,8 @@
 try:
     age = int(input("what is your age? "))
-    if age >= 13:
+    if age >= 18:
         print("you are an adult.")
-    elif age >= 18:
+    elif age >= 13:
         print("you are a teenager.")
     else:
         print("you are a child.")
